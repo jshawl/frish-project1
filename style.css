@@ -1,11 +1,7 @@
-<link href='https://fonts.googleapis.com/css?family=Bangers|Denk+One|Playfair+Display:400,900italic,900,700italic,700,400italic|Abril+Fatface|Kadwa:400,700|Carter+One|Laila:400,300,700,600,500|Elsie:400,900|Rozha+One|Playfair+Display+SC:400,400italic,700,700italic,900,900italic|Volkhov:400,700italic,700,400italic|Roboto+Mono:400,700,500,100,300|Tinos:400,700|Nunito:400,700,300|Corben:400,700' rel='stylesheet' type='text/css'>
-
-head {
-}
-Body {
+body {
 	text-align: center;
 	background: url("yellow-striped-background-seamless.jpg")no-repeat center center fixed;
-  font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif;
 	color: #ffffff;
 	background-size: cover;
 }
@@ -15,6 +11,7 @@ h1 {
   font-size: 150px;
   color: #ffffff;
   text-align: center;
+  /* be consistent with indentation */
 }
 
 .question {
@@ -27,10 +24,10 @@ h1 {
 	padding: 100px 30px 15px 30px;
 	margin: auto;
 	width:800px;
-	height: 315px;
+	height: 315px; /* When possible, using padding to space vertical height instead of hardcoding a value */
 }
 
-#optionA {
+#optionA, #optionB, #optionC, #optionD {
 	background-color:#60ADA2;
 	color:#ffffff;
 	border-radius:15px ;
@@ -39,51 +36,6 @@ h1 {
 	display:block;
 	font-size: 24px;
 	font-family: 'Abril Fatface', serif;
-	width:500px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#optionB {
-	background-color:#60ADA2;
-	color:#ffffff;
-	border-radius:15px ;
-	padding: 15px 32px;
-	text-align: center;
-	display: block;
-	font-size: 24px;
-	font-family: 'Abril Fatface', cursive;
-	width:500px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#optionC {
-	background-color:#60ADA2;
-	color:#ffffff;
-	border-radius:15px ;
-	padding: 15px 32px;
-	text-align: center;
-	display: block;
-	font-size: 24px;
-	font-family: 'Abril Fatface', cursive;
-	width:500px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#optionD {
-	background-color:#60ADA2;
-	color:#ffffff;
-	border-radius:15px ;
-	padding: 15px 32px;
-	text-align: center;
-	display: block;
-	font-size: 24px;
-	font-family: 'Abril Fatface', cursive;
 	width:500px;
 	margin-bottom: 20px;
 	margin-top: 20px;
@@ -129,3 +81,5 @@ h4 {
 	color: #ffffff;
   text-align: center;
 }
+
+/* Excellent CSS! remember to combine common rules with comma-separated selectors */
